@@ -1,0 +1,13 @@
+name: build_website_on_merge_to_source
+on: 
+    pull_request:
+        branches: 
+            - source
+        types: [closed]
+
+jobs: 
+    build_website:
+        runs-on: ubuntu-latest
+        if github.event.pull_request.merged == true
+        steps:
+            - run: make gh-publish
