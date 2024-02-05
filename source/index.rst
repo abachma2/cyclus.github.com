@@ -90,8 +90,6 @@ Contact Us
 
 * `Developers' mailing list and forum <https://groups.google.com/forum/#!forum/cyclus-dev>`_
 
-* `Developer Call times <http://dev-call.fuelcycle.org>`_: Fridays at 3:00PM EST
-
 Contributors
 ------------
 
@@ -130,6 +128,12 @@ Contributors
 * John Xia
 
 * Teddy Bae
+
+* `Amanda Bachmann <https://github.com/abachma2>`_
+
+* Kathryn (Katie) Mummah 
+
+* Ben Nibbelink
 
 Acknowledgments
 ----------------
