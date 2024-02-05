@@ -47,7 +47,7 @@ News
 
 **July 21-24, 2015:** Joint workshop with CLASS_ project held in Madison, WI
 
-**June 10, 2015:** First Cyclus :doc:`user tutorial <user/tutorial/index>` and :doc:`developer tutorial <arche/tutorial/index>` are held at the 2015 ANS Annual Meeting in San Antonio, TX
+**June 10, 2015:** First Cyclus :doc:`user tutorial <user/tutorial/index>` and :doc:`developer tutorial <arche/index>` are held at the 2015 ANS Annual Meeting in San Antonio, TX
 
 **June 7, 2015:** :doc:`Cyclus v1.3.1 is released <previous/v1.3>`
 
