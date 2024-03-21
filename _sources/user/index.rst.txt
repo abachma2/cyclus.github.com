@@ -112,17 +112,10 @@ evaluating their suitability.
     <https://github.com/cnerg/mbmore/blob/main/src/behavior_functions.h>`_.
 
 - `:mbmore:RandomEnrich
-<<<<<<< HEAD
   <https://github.com/cnerg/mbmore/blob/main/src/RandomEnrich.h>`_
 
 - `:mbmore:RandomSink
   <https://github.com/cnerg/mbmore/blob/main/src/RandomSink.h>`_
-=======
-  <https://github.com/mbmcgarry/mbmore/blob/master/src/RandomEnrich.h#242>`_
-
-- `:mbmore:RandomSink
-  <https://github.com/mbmcgarry/mbmore/blob/master/src/RandomSink.h#L78>`_
->>>>>>> 8518728d (simplify descriptions for third-party archetypes)
 
 **rwc Archetypes** (https://github.com/rwcarlsen/rwc-archetypes)
     This is a collection of miscellaneous archetypes made by Robert Carlsen to
@@ -141,8 +134,19 @@ evaluating their suitability.
   <https://github.com/rwcarlsen/rwc-archetypes/blob/master/storage.h>`_
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Peddler** (https://github.com/ergs/peddler)
 Peddler is a Cyclus Package used to simulate the transport of material from one facility to another.
+=======
+**Peddler** (https://github.com/ergs/peddler)
+Peddler is a Cyclus Package used to simulate the transport of material from one facility to another.
+
+- `peddler:truck<https://github.com/ergs/peddler/blob/master/peddler/truck.py>`_
+
+- `peddler:reactor<https://github.com/ergs/peddler/blob/master/peddler/reactor.py>_`
+
+
+>>>>>>> 355177be (ad peddler third-party archetype)
 
 - `peddler:truck<https://github.com/ergs/peddler/blob/master/peddler/truck.py>`_
 
