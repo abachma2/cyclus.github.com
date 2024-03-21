@@ -133,25 +133,12 @@ evaluating their suitability.
 - `:rwc:Storage
   <https://github.com/rwcarlsen/rwc-archetypes/blob/master/storage.h>`_
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Peddler** (https://github.com/ergs/peddler)
-Peddler is a Cyclus Package used to simulate the transport of material from one facility to another.
-=======
 **Peddler** (https://github.com/ergs/peddler)
 Peddler is a Cyclus Package used to simulate the transport of material from one facility to another.
 
 - `peddler:truck<https://github.com/ergs/peddler/blob/master/peddler/truck.py>`_
 
 - `peddler:reactor<https://github.com/ergs/peddler/blob/master/peddler/reactor.py>_`
-
-
->>>>>>> 355177be (ad peddler third-party archetype)
-
-- `peddler:truck<https://github.com/ergs/peddler/blob/master/peddler/truck.py>`_
-
-- `peddler:reactor<https://github.com/ergs/peddler/blob/master/peddler/reactor.py>_`
-
 
 **Cyder**(https://github.com/arfc/cyder)
 A generic nuclear repository model intended to be used within the Cyclus nuclear fuel cycle simulator. It contains a conditioning facility and a nuclear repository model that places spent fuel packages in a repository based on its temperature and the constraints of the repository.
@@ -177,9 +164,6 @@ A collection of Cyclus manager archetypes for demand driven deployment. The goal
 This Cyclus Reactor module is created to perform varying burnup and enrichment calculations for LWRs using a trained neural network model to predict UNF composition.
 
 - `ann_pwr:ann_pwr<https://github.com/jbae11/ann_pwr/blob/ann_lwr/ann_lwr/ann_lwr.py>`_
-=======
-
->>>>>>> 8518728d (simplify descriptions for third-party archetypes)
 
 
 Visualization & Analysis
