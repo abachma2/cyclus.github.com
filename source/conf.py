@@ -15,6 +15,7 @@ import os
 import sys
 import warnings
 import subprocess
+import datetime
 
 import cloud_sptheme as csp
 
@@ -51,7 +52,14 @@ extensions = ['sphinx.ext.mathjax', 'sphinx.ext.autodoc',
               'cyclusagent', 'cloud_sptheme.ext.table_styling',
               'sphinxcontrib.bibtex']
 
-bibtex_bibfiles = ['cite/pubs.bib', 'cep/cep-0002-1.bib', 'cep/cep-0004-1.bib', 'cep/cep-0018-1.bib', 'cep/cep-0020-1.bib']
+bibtex_bibfiles = ['cite/pubs.bib', 
+                   'cep/cep-0002-1.bib', 
+                   'cep/cep-0004-1.bib', 
+                   'cep/cep-0018-1.bib', 
+                   'cep/cep-0020-1.bib',
+                   'cite/citecyc.bib',
+                   'newsletters/pubsmay2018.bib',
+                   'newsletters/pubsoct2017.bib']
 
 numpydoc_show_class_members = False
 
@@ -69,7 +77,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Cyclus'
-copyright = (u'2012-2016, University of Wisconsin Computational Nuclear '
+copyyear = str(datetime.datetime.now().year)
+copyright = (u'2012-' + copyyear + ', University of Wisconsin Computational Nuclear '
              'Engineering Research Group')
 
 # The version info for the project you're documenting, acts as replacement for
@@ -184,7 +193,9 @@ html_last_updated_fmt = '%b %d, %Y'
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
+html_sidebars = {
+    '**': [ 'searchbox.html', 'sidebar.html']
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.

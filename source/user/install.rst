@@ -29,38 +29,28 @@ will identify the best approach for you.
   - *Requires familiarity with Linux*
   - **Recommended** for users wanting to **run simulations locally**  (without internet)
 
-* :doc:`Virtualbox <virtualbox>`:
-
-  - *Requires familiarity with Linux*
-  - **Required for Windows users**
-
-
 * :doc:`Install Stable From Source (via Tarball) <install_from_tarball>`:
 
   - *Requires programming skills/familiarity with compiling code*
   - **Recommended** for users wanting to **modify existing archetypes** or **write new archetypes** (aka developers)
 
-* :doc:`Install Develop from Source (via Repository) <install_from_git>`:
+* :doc:`Install Main from Source (via Repository) <install_from_git>`:
 
   - *Requires programming skills/familiarity with compiling code, basic understanding of Git/GitHub*
   - **Recommended** for developers or users who **require the bleeding edge version** of |Cyclus|
   - **Required** for developers who wish to **contribute to kernel development** of |Cyclus|
 
+* :doc:`Install from Docker <install_docker>`:
 
-.. toctree::
-    :maxdepth: 1
-
-    install_binary
-    install_custom
-    install_from_git
-    install_from_tarball
-    virtualbox
+  - *Requires Docker install on machine and familiarity with Docker*
 
 
 2. Run Cyclus with a Sample XML File
 -------------------------------------
 
-Try running |Cyclus| for yourself. The result will be a :doc:`database <dbdoc>` named cyclus.sqlite.  Use the drop down menu to load the sqlite file into Cyclist for data visualization, or use your favorite sqlite browser to peruse.
+Try running |Cyclus| for yourself. The result will be a :doc:`database <dbdoc>` named cyclus.sqlite.  
+Use your favorite sqlite browser to peruse, or explore the data using 
+`Cymetric <https://github.com/cyclus/cymetric>`_.
 
 .. code-block:: bash
 

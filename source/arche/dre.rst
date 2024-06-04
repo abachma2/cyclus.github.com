@@ -15,7 +15,7 @@ instance for each concrete ``Resource`` (i.e. ``Materials`` and ``Products``) of
 the kernel is aware. For example, there is an exchange for ``Material``
 resources and another for ``Product`` resources.
 
-The DRE is comprised of five phases which execure in series:
+The DRE is comprised of five phases which execute in series:
 
 * :ref:`rfb`
 * :ref:`rrfb`
@@ -110,13 +110,13 @@ be:
     def get_material_requests(self):
         request_qty = 10.0  # kg
         # Material Target A
-        recipe_a = self.context().get_recipe("recipeA")
+        recipe_a = self.context.get_recipe("recipeA")
         target_a = ts.Material.create_untracked(request_qty, recipe_a)
         # Material Target B
-        recipe_b = self.context().get_recipe("recipeB")
+        recipe_b = self.context.get_recipe("recipeB")
         target_b = ts.Material.create_untracked(request_qty, recipe_b)
         # commodity mapping to request target
-        commods = {"FuelA": target_a}, {"FuelB": target_b}
+        commods = {"FuelA": target_a, "FuelB": target_b}
 
         # The Python interface allow you to return a few different structures,
         # depending on your needs.  In its simplest form, if you do not not have
@@ -141,13 +141,13 @@ be:
         # a list makes them mutual requests:
         commods = [{"FuelA": target_a, "preference":2}, 
                    {"FuelB": target_b, "preference":1}]
-        port = {"commodities":commods, "constraints":request_qty
+        port = {"commodities":commods, "constraints":request_qty}
 
         # If you want the requests to be exclusive, then you have to indicate 
         # that:
         commods = [{"FuelA": target_a, "preference":2, "exclusive":True}, 
                    {"FuelB": target_b, "preference":1, "exclusive":True}]
-        port = {"commodities":commods, "constraints":request_qty
+        port = {"commodities":commods, "constraints":request_qty}
 
         # lastly, if you need to return many portfolios, simply return a list of
         # portfolio dictionaries! The "preference" and "exclusive" keys are optional

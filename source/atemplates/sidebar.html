@@ -1,6 +1,4 @@
-{% extends "!layout.html" %}
-
-{% block sidebarsearch %}
+<div class="customsidebar">
   <div class="sphinxlocaltoc">
   <h3>{{ _('Useful Pages') }}</h3>
     <ul><li><ul>
@@ -8,7 +6,8 @@
     <li><a href="/user/index.html">User Guide</a></li>
     <li><a href="/user/tutorial/index.html">User Tutorial</a></li>
     <li><a href="/arche/index.html">Archetype Developer Guide</a></li>
-    <li><a href="/arche/tutorial/index.html">Archetype Developer Tutorial</a></li>
+    <li><a href="/arche/tutorial_cpp/index.html">Archetype Developer C++ Tutorial</a></li>
+    <li><a href="/arche/tutorial_py/index.html">Archetype Developer Python Tutorial</a></li>
      <li><a href="http://fuelcycle.org/cyclus/api/">Cyclus API Documentation</a></li>
     <li><a href="http://fuelcycle.org/cycamore/api/">Cycamore API Documentation</a></li>
     <li><a href="/basics/glossary.html">Glossary</a></li>
@@ -19,10 +18,9 @@
     <li><a href="http://dev-call.fuelcycle.org" target="_blank"><span style="font-variant:small-caps">Cyclus</span> Developers Hangout Link</a>
     </ul></li></ul>
   </div>
-    {{ super() }}
     <h3>Get Cyclus</h3>
     <br>
-    Current version: <b>1.5.5</b>
+    Current version: <b>1.6.0</b>
     <br><br>
     Install:
     <div class="highlight-bash" style="width:97.5%"><div class="highlight"><pre><span class="nv">$ </span>conda install cyclus cycamore</pre></div></div>
@@ -52,4 +50,4 @@
     <a href="http://www.anl.gov" target="_blank"><img src="{{ pathto("_static/nnsa.png", 1) }}" width=150px></a>
 
 
-{% endblock %}
+</div>

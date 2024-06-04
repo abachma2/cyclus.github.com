@@ -12,42 +12,28 @@ Installing |Cyclus| with Binaries
    :start-after: .. website_include_conda_start
    :end-before: .. website_include_conda_end
 
-
-#. Once you have conda installed, installing |Cyclus| and Cycamore is
-   straightforward. If you are having issues with certificate verification
-   you may install using the second set of commands to fix these issues. 
-
-   .. code-block:: bash
-
-      $ conda install -c conda-forge cycamore
-
-   .. code-block:: bash
-
-      $ conda config --set ssl_verify false
-      $ conda install -c conda-forge cycamore
-
-#.  .. include:: unit_test.rst
+.. include:: unit_test.rst
 
 .. include:: CYCAMORE_DEPS.rst
    :start-after: .. website_include_deb_start
    :end-before: .. website_include_deb_end
 
-#. Download the Cycamore Debian installation package corresponding to your Ubuntu version (`14.04
-   <http://dory.fuelcycle.org:4848/ubuntu/14.04/cycamore_latest.deb>`_ or
-   `16.04
-   <http://dory.fuelcycle.org:4848/ubuntu/16.04/cycamore_latest.deb>`_). You can
-   download previous/different version `here <http://dory.fuelcycle.org:4848/ubuntu/>`_.
+At this point |Cyclus| should be successfully installed on your system and you are ready to install Cycamore.
+
+#. Download the latest Cycamore Debian installation package `here
+   <https://github.com/cyclus/cycamore/releases/latest>`_. Previous/different
+   versions are `also available <https://github.com/cyclus/cycamore/releases>`_.
 
 #. Install the package by running:
 
    .. code-block:: bash
 
-      $ sudo dpkg -i cycamore_latest.deb
+      $ sudo dpkg -i cycamore-x.x.x-Linux.deb
 
 #. .. include::  unit_test.rst
 
 Happy simulating!
 
-.. _Anaconda: https://www.continuum.io/downloads
+.. _Anaconda: https://www.anaconda.com/download
 .. _miniconda: http://conda.pydata.org/miniconda.html
 .. _`dependency installation documentation`: DEPENDENCIES.html

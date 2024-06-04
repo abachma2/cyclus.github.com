@@ -30,32 +30,11 @@ The |Cyclus| project repository is located at http://github.com/cyclus/cyclus
 
 Quick Start
 -----------
-:doc:`Get started with Cyclus <user/install>`
-
-News
-----
-
-**June 1st, 2018:** :doc:`Cyclus Newsletter Spring 2018! <newsletters/may2018>`
-
-**October 6th, 2017:** :doc:`Cyclus Newsletter Fall 2017! <newsletters/oct2017>`
-
-**December 13, 2016:** :doc:`Cyclus v1.5.0 is released <previous/v1.5>`
-
-**July 6-8, 2016:** Technical workshop on Dynamic Fuel Cycle in Paris, France
-
-**August 13, 2015:** :doc:`Cyclus included in FY2016 workscopes for the NEUP program <news/fy16neup>`
-
-**July 21-24, 2015:** Joint workshop with CLASS_ project held in Madison, WI
-
-**June 10, 2015:** First Cyclus :doc:`user tutorial <user/tutorial/index>` and :doc:`developer tutorial <arche/index>` are held at the 2015 ANS Annual Meeting in San Antonio, TX
-
-**June 7, 2015:** :doc:`Cyclus v1.3.1 is released <previous/v1.3>`
 
 .. toctree::
     :maxdepth: 1
-
-    news/fy16neup
-    newsletters/oct2017
+  
+    user/install
 
 
 Learn More
@@ -72,6 +51,32 @@ Learn More
     cep/cep0
     previous/index
     cite/index
+
+
+News
+----
+
+**May 4, 2024:** `Cyclus v1.6.0 is released <https://github.com/cyclus/cyclus/releases/tag/1.6.0>`_
+
+**April 29, 2024:** :doc:`FY 24 Funding for Cyclus <news/fy24neup>`
+
+**January 14, 2020:** `Cyclus v1.5.5 is released <https://github.com/cyclus/cyclus/releases/tag/1.5.5>`_
+
+**June 1, 2018:** :doc:`Cyclus Newsletter Spring 2018 <newsletters/may2018>`
+
+**October 6, 2017:** :doc:`Cyclus Newsletter Fall 2017! <newsletters/oct2017>`
+
+**December 13, 2016:** `Cyclus v1.5.0 is released <https://github.com/cyclus/cyclus/releases/tag/1.5.0>`_
+
+**July 6-8, 2016:** Technical workshop on Dynamic Fuel Cycle in Paris, France
+
+**August 13, 2015:** :doc:`Cyclus included in FY2016 workscopes for the NEUP program <news/fy16neup>`
+
+**July 21-24, 2015:** Joint workshop with CLASS_ project held in Madison, WI
+
+**June 10, 2015:** First Cyclus :doc:`user tutorial <user/tutorial/index>` and :doc:`developer tutorial <arche/tutorial_cpp/index>` are held at the 2015 ANS Annual Meeting in San Antonio, TX
+
+**June 7, 2015:** `Cyclus v1.3.1 is released <https://github.com/cyclus/cyclus/releases/tag/1.3.0>`_
 
 .. _try-it:
 
@@ -90,44 +95,19 @@ Contact Us
 
 * `Developers' mailing list and forum <https://groups.google.com/forum/#!forum/cyclus-dev>`_
 
+
+
 Contributors
 ------------
 
-* Robert Carlsen
+You can find our amazing contributors through their GitHub contributions for each of the projects:
 
-* Denia Djokic
+* `Cyclus Contributors <https://github.com/cyclus/cyclus/graphs/contributors>`_
 
-* Royal Elmore
+* `Cycamore Contributors <https://github.com/cyclus/cycamore/graphs/contributors>`_
 
-* Robert Flanagan
+* `Cymetric Contributors <https://github.com/cyclus/cymetric/graphs/contributors>`_.
 
-* `Matthew Gidden <http://mattgidden.com/>`_
-
-* Ryan Hodge
-
-* `Kathryn (Katy) Huff <http://katyhuff.github.io/>`_
-
-* Jenny Littell
-
-* `Meghan McGarry <http://cnerg.github.io/people/mcgarry.html>`_
-
-* `Baptiste Mouginot <http://cnerg.github.com/people/bam.html>`_
-
-* `Arrielle Opotowsky <http://cnerg.github.io/people/opotowsky.html>`_
-
-* Olzhas Rakhimov
-
-* `Anthony Scopatz <http://scopatz.com/>`_
-
-* Steve Skutnik
-
-* Zach Welch
-
-* `Paul Wilson <http://cnerg.github.io/people/pphw.html>`_
-
-* John Xia
-
-* Teddy Bae
 
 * `Amanda Bachmann <https://github.com/abachma2>`_
 

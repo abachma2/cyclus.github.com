@@ -12,7 +12,7 @@ It will:
 - Renumber references.
 - Extract the signature from the docstring, if it can't be determined otherwise.
 
-.. [1] https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt
+.. [1] https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard
 
 """
 from __future__ import division, absolute_import, print_function
@@ -95,7 +95,7 @@ def mangle_signature(app, what, name, obj, options, sig, retann):
         'initializes x; see ' in pydoc.getdoc(obj.__init__))):
         return '', ''
 
-    if not (isinstance(obj, collections.Callable) or hasattr(obj, '__argspec_is_invalid_')): return
+    if not (isinstance(obj, collections.abc.Callable) or hasattr(obj, '__argspec_is_invalid_')): return
     if not hasattr(obj, '__doc__'): return
 
     doc = SphinxDocString(pydoc.getdoc(obj))
