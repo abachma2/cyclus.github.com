@@ -8,7 +8,6 @@ CEP 1 - CEP Purpose and Guidelines
 :Status: Active
 :Type: Process
 :Created: 2013-07-03
-:Updated: 2024-11-27
 
 What is a CEP?
 ==============
