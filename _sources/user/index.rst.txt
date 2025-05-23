@@ -112,10 +112,17 @@ evaluating their suitability.
     <https://github.com/cnerg/mbmore/blob/main/src/behavior_functions.h>`_.
 
 - `:mbmore:RandomEnrich
+<<<<<<< HEAD
   <https://github.com/cnerg/mbmore/blob/main/src/RandomEnrich.h>`_
 
 - `:mbmore:RandomSink
   <https://github.com/cnerg/mbmore/blob/main/src/RandomSink.h>`_
+=======
+  <https://github.com/mbmcgarry/mbmore/blob/master/src/RandomEnrich.h#242>`_
+
+- `:mbmore:RandomSink
+  <https://github.com/mbmcgarry/mbmore/blob/master/src/RandomSink.h#L78>`_
+>>>>>>> 8518728d (simplify descriptions for third-party archetypes)
 
 **rwc Archetypes** (https://github.com/rwcarlsen/rwc-archetypes)
     This is a collection of miscellaneous archetypes made by Robert Carlsen to
@@ -133,6 +140,7 @@ evaluating their suitability.
 - `:rwc:Storage
   <https://github.com/rwcarlsen/rwc-archetypes/blob/master/storage.h>`_
 
+<<<<<<< HEAD
 **Peddler** (https://github.com/ergs/peddler)
 Peddler is a Cyclus Package used to simulate the transport of material from one facility to another.
 
@@ -165,6 +173,9 @@ A collection of Cyclus manager archetypes for demand driven deployment. The goal
 This Cyclus Reactor module is created to perform varying burnup and enrichment calculations for LWRs using a trained neural network model to predict UNF composition.
 
 - `ann_pwr:ann_pwr<https://github.com/jbae11/ann_pwr/blob/ann_lwr/ann_lwr/ann_lwr.py>`_
+=======
+
+>>>>>>> 8518728d (simplify descriptions for third-party archetypes)
 
 
 Visualization & Analysis
